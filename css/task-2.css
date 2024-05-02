@@ -1,0 +1,23 @@
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 24px;
+    row-gap: 48px;
+    width: 100%;
+    height: 100%;
+    padding: 84px 140px;
+}
+
+.gallery li {
+    display: flex;
+    width: 360px;
+    height: 300px;
+}
+
+.gallery li img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
